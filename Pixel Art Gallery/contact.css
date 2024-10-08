@@ -1,0 +1,47 @@
+body{
+    background-color: #032f4d;
+    font-family: 'Press Start 2P';
+    color: white;
+    margin: 0;
+}
+.header
+{
+    top: 0;
+}
+.base
+{
+    bottom: 0%;
+    
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #03253b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #03253b;
+  padding: 20px;
+}
